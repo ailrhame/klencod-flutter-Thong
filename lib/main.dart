@@ -262,7 +262,7 @@ final List<Character> catalog = () {
       out.add(_makeChar(name, entry.key, seed++));
     }
   }
-  return List.unmodifiable(out);
+  return List<Character>.unmodifiable(out);
 }();
 
 // ===================================================================
